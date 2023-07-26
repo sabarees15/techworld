@@ -1,0 +1,133 @@
+body{
+    background-color: gray;
+}
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif ;
+}
+#navbar{
+    position: sticky;
+    top: 0%;
+    left: 0%;
+    z-index: 100;
+    padding: .5rem 5rem;
+    box-shadow: 5px 5px 20px rgba(0,0,0,.5);
+    background: black;
+
+}
+.navbar .navbar-brand{
+    font-size: 25px;
+    font-weight: 800;
+    color: rgb(10, 201, 235) ! important;
+}
+#navbarsupportedcontent a{
+    color: rgb(9, 235, 12);
+    border-bottom: 2px solid transparent;
+}
+#navbarsupportedcontent a:hover{
+    border-bottom: 2px solid rgb(78, 11, 202);
+}
+#navbarsupportedcontent button{
+    background-color: blue;
+    width: 5rem;
+    border-radius: 15px;
+}
+.forem{
+    background-color: rgb(204, 204, 204);
+    margin-top: 0%;
+}
+.skill{
+    width: 33.33%;
+    float: left ;
+    
+}
+.luck{
+width: 33.33%;
+float: right;
+
+
+}
+.hang{
+    max-width: 33.33%;
+    margin: auto;
+
+}
+#about{
+    margin: 0%;
+    background-color: rgb(185, 185, 185);
+    justify-content: space-between;
+    padding: auto;
+    width: 100%;
+    margin: 0% auto;
+}
+#about h1{
+    font-weight: 800;
+    font-size: 50px;
+    color: aliceblue;
+   
+}
+#about p{
+    color: aliceblue;
+    margin: 0;
+    
+}
+#about img{
+    width: 500px;
+    height: 500px ;
+}
+.container{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+   flex-wrap: wrap;
+  
+    margin-top: 0%;
+    grid-template-columns: repeat(auto-fit,minmax(270px,1fr));
+    background-color: rgb(189, 188, 188);
+}
+.container .card{
+    width: 300px;
+    position: relative;
+    height: 200px;
+    background: #ffffff;
+    margin: 30px 30px;
+    border-radius: 20px;
+    padding: 20px 10px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 1rem #fffefe;
+    position: relative; 
+}
+.container .card h2{
+    align-items: center;
+    text-decoration: underline;
+}
+.container .para{
+    margin-inline-start: auto;
+    text-align: center;
+}
+#testimonial{
+    background: #f8f8f8; 
+    align-items: center;
+}
+#testimonial img{
+    width: 250px;
+    height: 400px;
+}
+.card{
+    width: 300px;
+    height: 350px;
+    background: #b9b9b9 !important;
+    border: none;
+}
+.box{
+    width: 100% !important; 
+    background: #b9b9b9;
+    margin-top: 0% ;
+}
+#contactus input{
+    margin: 10px 0px;
+}
